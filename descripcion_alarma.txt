@@ -21,3 +21,11 @@ de los comandos de hora, y para la seleccion del video de la lista de
 videos, puede que no todas las URL ocupen una sola linea).
 -Como acceder a Youtube y reproducir un video desde Java.
 -Librerias para el manejo del tiempo en Java.
+
+Arquitectura:
+Un objeto Agendador utiliza los metodos static de la clase Analizador 
+para verificar el correcto formato de los argumentos pasados en linea de 
+comandos, de ser correcto el Agendador verifica la validez de la hora 
+proporcionada, si esta es valida entonces construye un objeto alarma y
+este se encarga de abrir el video en YouTube una vez ha llegado el 
+momento de hacerlo.
