@@ -5,7 +5,7 @@ deberia reproducirse un video en youtube.
 El programa deberia leer un archivo que contiene una lista con URLs de
 distintos videos en youtube, luego deberia escoger uno de esos videos de
 manera aleatoria. Los argumentos de linea de comandos podrian ser del
-tipo --hora <hora> --minute <minuto> --<pm/am> sin embargo, quien 
+tipo --hora <hora> --minuto <minuto> --<pm/am> sin embargo, quien 
 realice el proyecto puede hacerlo de tal manera que le resulte mas facil
 o conveniente.
 
