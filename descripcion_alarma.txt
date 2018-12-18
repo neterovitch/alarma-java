@@ -1,0 +1,23 @@
+Descripcion original:
+Crear un programa que acepte argumentos de linea de comandos para el 
+tiempo en que la alarma deberia activarse. Cuando la alarma se active
+deberia reproducirse un video en youtube.
+El programa deberia leer un archivo que contiene una lista con URLs de
+distintos videos en youtube, luego deberia escoger uno de esos videos de
+manera aleatoria. Los argumentos de linea de comandos podrian ser del
+tipo --hora <hora> --minute <minuto> --<pm/am> sin embargo, quien 
+realice el proyecto puede hacerlo de tal manera que le resulte mas facil
+o conveniente.
+
+Lo que necesito saber:
+-Como ejecutar programas java desde linea de comandos (comando java).
+Conozco lo basico (ej: java AlgunaClase), pero necesito profundizarlo
+mas.
+-Como recibir y manejar argumentos de linea de comandos en java.
+-Leer archivos en Java.
+-Aleatoriedad en Java.
+-Expresiones regulares (las utilizare para verificar el formato correcto
+de los comandos de hora, y para la seleccion del video de la lista de
+videos, puede que no todas las URL ocupen una sola linea).
+-Como acceder a Youtube y reproducir un video desde Java.
+-Librerias para el manejo del tiempo en Java.
